@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/* Set a background image for the entire body of the welcome.jsp page */
+body {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url('../Images/welcomeback.jpg'); /* Adjust the path based on your directory structure */
+    background-size: cover; /* Makes sure the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image in the viewport */
+    height: 82vh; /* Sets the height to 100% of the viewport height */
+    width:100%;
+    font-family: Arial, sans-serif; /* Sets a default font */
+    
+ /* Sets text color to white for better contrast */
+}
+h1
+{
+	color: #646a75;
+}
+
+h2
+{
+	color: #646a75;
+	margin-top:10px;
+}
+
+/* Styles for the container */
+.container {
+	margin-top:100px;
+    padding: 20px; /* Adds padding inside the container */
+    text-align: center; /* Centers the text */
+    /*background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent black background for better readability */
+    border-radius: 10px; /* Optional: Rounds the corners of the container */
+}
+
+/* Styles for the card container */
+.card-container {
+    display: flex; /* Displays the cards in a row */
+    justify-content: center; /* Centers the cards */
+    gap: 20px; /* Adds space between the cards */
+    margin-top: 20px; /* Adds space above the card container */
+  
+}
+
+/* Styles for individual cards */
+.card {
+    background-color: black; /* Sets the card background color */
+    border: 1px solid #ddd; /* Adds a light border */
+    border-radius: 8px; /* Rounds the corners of the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    padding: 20px; /* Adds padding inside the card */
+    text-decoration: none; /* Removes underline from links */
+    color: #646a75; /* Sets the text color */
+    transition: transform 0.2s; /* Adds a transition effect for hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scales up the card slightly on hover */
+}
+
+
